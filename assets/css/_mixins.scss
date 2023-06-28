@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,400&display=swap");
+$breakpoints: (
+  sm: theme("screens.sm"),
+  md: theme("screens.md"),
+  lg: theme("screens.lg"),
+  xl: theme("screens.xl"),
+);
+@mixin breakpoint($size) {
+  @media screen and (min-width: map-get($breakpoints, $size)) {
+    // insert content inside
+    @content;
+  }
+}
+@include breakpoint("sm") {
+  html,
+  body {
+    background: rgb(2,0,36);
+background: linear-gradient(27deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 34%, rgba(0,212,255,1) 100%);
+    color: #000000;
+    scroll-behavior: smooth;
+    font-family: "Lato";
+  }
+}

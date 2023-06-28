@@ -1,4 +1,4 @@
-package com.lorde.colissender;
+package com.lorde.renaultprecode;
 
 import com.getcapacitor.BridgeActivity;
 

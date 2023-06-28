@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">Colis Sender</string>
-    <string name="title_activity_main">Colis Sender</string>
-    <string name="package_name">com.lorde.colissender</string>
-    <string name="custom_url_scheme">com.lorde.colissender</string>
+    <string name="app_name">Renault Precode</string>
+    <string name="title_activity_main">Renault Precode</string>
+    <string name="package_name">com.lorde.renaultprecode</string>
+    <string name="custom_url_scheme">com.lorde.renaultprecode</string>
 </resources>
